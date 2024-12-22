@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Localidade | IBGE</title>
+</head>
+<body class="container" style="background-color: #dedede;">
+    <main class="border border-dark rounded p-4 my-5 bg-white shadow">
+        <header>
+            <h1 class="fs-5 text-center mt-0 mb-4">FORMULÁRIO DE CADASTRO - SUA LOCALIDADE</h1>
+        </header>
+        <form>
+            <div class="mb-3">
+                <label for="regiao" class="form-label">Região: </label>
+                <select id="regiao" class="form-select border-dark shadow-sm">
+                    <option id="test" selected>Selecionar...</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="estado" class="form-label">Estado: </label>
+                <select id="estado" class="form-select border-dark shadow-sm">
+                    <option selected>Selecionar...</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="cidade" class="form-label">Cidade: </label>
+                <select id="cidade" class="form-select border-dark shadow-sm">
+                    <option selected>Selecionar...</option>
+                </select>
+            </div>
+        </form>
+        <h3 id="display" class="mt-5 fs-6 text-center">Mensagem sobre a localidade do usuário</h3>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
